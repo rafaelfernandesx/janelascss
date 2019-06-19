@@ -1,0 +1,37 @@
+.janela{
+	position: fixed;
+	width: 500px;
+	height: 300px;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	border-radius: 3px;
+}
+
+.titulo{
+	position: relative;
+	width: 100%;
+	height: 25px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	padding: 5px;
+	line-height: 25px;
+	/*background-color: rgba(250,200, 250, 0.6);*/
+}
+.janela-conteudo{
+	position: relative;
+	height: calc(100% - 39px);
+	width: calc(100% - 8px);
+	margin-left: 4px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.botoes{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	background-color: white;
+	border-radius: 3px;
+	float: right;
+	margin-right: 10px;
+}
