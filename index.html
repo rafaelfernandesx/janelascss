@@ -11,18 +11,30 @@
 </head>
 <body>
 	<div class="conteudo">
-		<div class="janela">
+		<div class="janela" id="janela">
 			<div class="titulo">
 				TITULO - WINCSS
-				<div class="botoes">
-					<button><i class="minimizar">_</i></button>
-					<button><i class="maximizar">[]</i></button>
-					<button><i class="fechar">X</i></button>
+				<div class="top-barra-botoes">
+					<button class="top-botoes-barra blue"><b class="minimizar">_</b></button>
+					<button class="top-botoes-barra blue"><b class="maximizar">[ ]</b></button>
+					<button class="top-botoes-barra red" onclick="$('#janela').hide();"><b class="fechar">X</b></button>
 				</div>
 			</div>
 			<div class="janela-conteudo">
 
 			</div>
+		</div>
+		<div class="barra-bottom">
+			<div class="btn-menu">
+				<div id="img-Menu"></div>
+			</div>
+			<div class="barra-janelas">
+				
+			</div>
+			<div class="icons-tray">
+				
+			</div>
+			
 		</div>
 	</div>
 

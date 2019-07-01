@@ -1,3 +1,7 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
 .janela{
 	position: fixed;
 	width: 500px;
@@ -14,7 +18,7 @@
 	border-top-right-radius: 3px;
 	padding: 5px;
 	line-height: 25px;
-	/*background-color: rgba(250,200, 250, 0.6);*/
+	color: white;
 }
 .janela-conteudo{
 	position: relative;
@@ -26,12 +30,93 @@
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
-.botoes{
+.top-barra-botoes{
 	position: relative;
 	display: inline-block;
-	width: 100px;
+	width: auto;
 	background-color: white;
 	border-radius: 3px;
 	float: right;
 	margin-right: 10px;
+	margin-top: -2px;
+	padding: 2px;
+}
+
+.top-botoes-barra{
+	margin: 0px;
+	border: 0px solid blue;
+	border-radius: 3px;
+	height: 25px;
+	width: 35px;
+}
+
+/*--------------------------------------------*/
+
+.barra-bottom{
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	width: 100%;
+	background: linear-gradient(to bottom, #33ccff 0%, #3653FF 100%);
+	border-radius: 3px 3px 0px 0px;
+}
+
+.btn-menu{
+	height: 100%;
+	width: 55px;
+	background-color: rgba(57,136,255, 0.5);
+	float: left;
+	border-top-left-radius: 3px;
+	text-align: center;
+}
+#img-Menu{
+	margin-left: 7px;
+	width: 40px;
+	border-radius: 20%;
+	background-image: url(https://img.icons8.com/color/48/000000/circled-menu.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: brightness(50%);
+	height: 40px;
+}
+#img-Menu:hover{
+	background-color: rgba(57,156,255, 0.2);
+}
+#img-Menu:active {
+ 	background-color: rgba(0,156,255, 0.5);
+}
+
+.barra-janelas{
+	height: 100%;
+	width: calc(80% - 55px);
+	background-color: rgba(34,255,126, 0.5);
+	float: left;
+}
+
+.icons-tray{
+	height: 100%;
+	width: 20%;
+	background-color: rgba(57,136,255, 0.5);
+	float: left;
+	border-top-right-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.red{
+	background-color: rgba(221, 0, 70, 0.5);
+	color: white;
+}
+.blue{
+	background-color: rgba(0, 0, 70, 0.5);
+	color: white;
 }
